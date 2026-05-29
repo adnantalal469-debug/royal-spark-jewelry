@@ -1,0 +1,83 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+    font-family:Arial;
+}
+
+body{
+    background:#111;
+    color:white;
+}
+
+header{
+    display:flex;
+    justify-content:space-between;
+    align-items:center;
+    padding:20px 60px;
+    background:black;
+}
+
+header h1{
+    color:gold;
+}
+
+nav a{
+    color:white;
+    margin-left:20px;
+    text-decoration:none;
+}
+
+.hero{
+    text-align:center;
+    padding:100px 20px;
+}
+
+.hero h2{
+    font-size:50px;
+    color:gold;
+}
+
+.hero p{
+    margin-top:15px;
+    font-size:20px;
+}
+
+button{
+    margin-top:25px;
+    padding:12px 30px;
+    border:none;
+    background:gold;
+    font-size:18px;
+    cursor:pointer;
+}
+
+.products{
+    display:flex;
+    justify-content:center;
+    gap:30px;
+    padding:50px;
+    flex-wrap:wrap;
+}
+
+.card{
+    background:#1e1e1e;
+    padding:20px;
+    width:250px;
+    border-radius:10px;
+    text-align:center;
+}
+
+.card img{
+    width:100%;
+    border-radius:10px;
+}
+
+.card h3{
+    margin-top:15px;
+}
+
+.card p{
+    color:gold;
+    margin-top:10px;
+}
